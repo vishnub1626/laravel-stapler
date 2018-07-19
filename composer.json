@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "codesleeve/stapler": "1.2.*",
+        "vishnub1626/stapler": "1.2.*",
         "laravel/framework": "4.*|5.*"
     },
     "autoload": {
@@ -22,5 +22,11 @@
             "Codesleeve\\LaravelStapler\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "url": "https://github.com/vishnub1626/stapler.git",
+            "type": "git"
+        }
+    ],
     "minimum-stability": "stable"
 }
